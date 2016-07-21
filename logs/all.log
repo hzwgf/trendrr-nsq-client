@@ -1,0 +1,512 @@
+2015-06-23 17:01:56 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 
+
+
+开始,线程数->100
+2015-06-23 17:01:58 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 关卡重置:1
+2015-06-23 17:01:58 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 线程开始了,数量:100
+2015-06-23 17:01:58 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:01:58 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@46c2e53a 192.168.66.239 : 41503
+2015-06-23 17:01:58 WARN  [New I/O worker #2]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@46c2e53a 192.168.66.239 : 41503
+2015-06-23 17:01:58 WARN  [New I/O worker #2]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:01:58 WARN  [New I/O worker #2]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@46c2e53a 192.168.66.239 : 41503
+2015-06-23 17:01:58 WARN  [New I/O worker #2]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@46c2e53a 192.168.66.239 : 41503
+2015-06-23 17:01:58 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:01:58 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:01:58 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:01:58 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:01:58 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:01:58 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:01:58 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:01:58 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:01:58 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:01:58 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:01:58 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:01:58 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:02:13 WARN  [pool-1-thread-22]  com.trendrr.nsq.Connections - No connections available!
+2015-06-23 17:02:13 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:13 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:13 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:13 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:13 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:18 WARN  [pool-1-thread-22]  com.trendrr.nsq.NSQProducer - Attempting to reconnect
+2015-06-23 17:02:18 ERROR [pool-1-thread-22]  com.trendrr.nsq.NSQProducer - 重连################################
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #2]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@46c2e53a 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #2]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@46c2e53a 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #2]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@46c2e53a 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #2]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@46c2e53a 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:02:28 WARN  [New I/O worker #2]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@46c2e53a 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #2]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@46c2e53a 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:02:28 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #2]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@46c2e53a 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #2]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@46c2e53a 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@69ce2b6 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5ff91864 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:28 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:43 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:02:58 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 线程返回正常,数量:100,预计执行时间：30s,实际执行时间:60374ms
+2015-06-23 17:02:58 INFO  [main]  com.trendrr.nsq.benchmark.Producer - tps:0.00,avg rt:�ms,max rt:-1ms,min rt:-1ms,success:0,fail:159.
+2015-06-23 17:02:58 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 异常统计：{com.trendrr.nsq.exceptions.NoSpaceLeftException: no space left on device=8, com.trendrr.nsq.exceptions.TimeoutException: command:  (PUB full_disk_topic) timedout=151}
+2015-06-23 17:02:58 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - No connection set for : [id: 0x8fbf87ba, /172.16.5.94:53897 :> /192.168.66.239:41503]
+2015-06-23 17:02:58 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - No connection set for : [id: 0x44b5b3ae, /172.16.5.94:53898 :> /192.168.66.239:41503]
+2015-06-23 17:09:10 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 
+
+
+开始,线程数->100
+2015-06-23 17:09:12 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 关卡重置:1
+2015-06-23 17:09:12 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 线程开始了,数量:100
+2015-06-23 17:09:24 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@3a93774d 192.168.66.239 : 41503
+2015-06-23 17:09:24 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3a93774d 192.168.66.239 : 41503
+2015-06-23 17:09:24 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:09:24 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:09:24 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3a93774d 192.168.66.239 : 41503
+2015-06-23 17:09:24 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3a93774d 192.168.66.239 : 41503
+2015-06-23 17:09:46 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 
+
+
+开始,线程数->100
+2015-06-23 17:09:48 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 关卡重置:1
+2015-06-23 17:09:48 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 线程开始了,数量:100
+2015-06-23 17:09:48 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@31e8e859 192.168.66.239 : 41503
+2015-06-23 17:09:48 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@31e8e859 192.168.66.239 : 41503
+2015-06-23 17:09:48 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:09:48 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:09:48 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:09:48 WARN  [New I/O worker #2]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:09:48 WARN  [New I/O worker #2]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:09:48 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@31e8e859 192.168.66.239 : 41503
+2015-06-23 17:09:48 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@67c76ef3 192.168.66.239 : 41503
+2015-06-23 17:09:48 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@31e8e859 192.168.66.239 : 41503
+2015-06-23 17:09:48 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:09:48 WARN  [New I/O worker #2]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:09:48 WARN  [New I/O worker #2]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:09:48 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:09:48 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:09:48 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:09:48 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:09:48 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@67c76ef3 192.168.66.239 : 41503
+2015-06-23 17:09:48 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:09:48 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:09:48 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:09:48 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:09:48 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:09:48 WARN  [pool-1-thread-69]  com.trendrr.nsq.Connections - No connections available!
+2015-06-23 17:09:48 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:18 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 
+
+
+开始,线程数->100
+2015-06-23 17:10:18 INFO  [main]  com.trendrr.nsq.AbstractNSQClient - Creating connection: 192.168.66.239 : 41503
+2015-06-23 17:10:18 INFO  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - 连接成功，[id: 0x393eddc2, /172.16.5.94:53934 => /192.168.66.239:41503] CONNECTED: /192.168.66.239:41503
+2015-06-23 17:10:18 INFO  [main]  com.trendrr.nsq.AbstractNSQClient - Creating connection: 192.168.66.239 : 41503
+2015-06-23 17:10:18 INFO  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - 连接成功，[id: 0xbd8652de, /172.16.5.94:53935 => /192.168.66.239:41503] CONNECTED: /192.168.66.239:41503
+2015-06-23 17:10:18 INFO  [main]  com.trendrr.nsq.AbstractNSQClient - Creating connection: 192.168.66.239 : 41503
+2015-06-23 17:10:18 INFO  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - 连接成功，[id: 0xabede354, /172.16.5.94:53936 => /192.168.66.239:41503] CONNECTED: /192.168.66.239:41503
+2015-06-23 17:10:18 INFO  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - 连接成功，[id: 0x02ca6648, /172.16.5.94:53937 => /192.168.66.239:41503] CONNECTED: /192.168.66.239:41503
+2015-06-23 17:10:18 INFO  [main]  com.trendrr.nsq.AbstractNSQClient - Creating connection: 192.168.66.239 : 41503
+2015-06-23 17:10:18 INFO  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - 连接成功，[id: 0xb00747fc, /172.16.5.94:53938 => /192.168.66.239:41503] CONNECTED: /192.168.66.239:41503
+2015-06-23 17:10:18 INFO  [main]  com.trendrr.nsq.AbstractNSQClient - Creating connection: 192.168.66.239 : 41503
+2015-06-23 17:10:20 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 关卡重置:1
+2015-06-23 17:10:20 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 线程开始了,数量:100
+2015-06-23 17:10:20 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@5bc68743 192.168.66.239 : 41503
+2015-06-23 17:10:20 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@7bd94acc 192.168.66.239 : 41503
+2015-06-23 17:10:20 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5bc68743 192.168.66.239 : 41503
+2015-06-23 17:10:20 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:10:20 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:10:20 WARN  [New I/O worker #2]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:10:20 WARN  [New I/O worker #2]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:10:20 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@7bd94acc 192.168.66.239 : 41503
+2015-06-23 17:10:20 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:10:20 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:10:20 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:10:20 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:10:20 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:10:20 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:10:20 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:10:20 WARN  [pool-1-thread-27]  com.trendrr.nsq.Connections - No connections available!
+2015-06-23 17:10:20 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:20 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:20 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:20 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:20 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:25 WARN  [pool-1-thread-27]  com.trendrr.nsq.NSQProducer - Attempting to reconnect
+2015-06-23 17:10:25 ERROR [pool-1-thread-27]  com.trendrr.nsq.NSQProducer - 重连################################
+2015-06-23 17:10:25 INFO  [pool-1-thread-27]  com.trendrr.nsq.AbstractNSQClient - Creating connection: 192.168.66.239 : 41503
+2015-06-23 17:10:25 INFO  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - 连接成功，[id: 0x71f99627, /172.16.5.94:53939 => /192.168.66.239:41503] CONNECTED: /192.168.66.239:41503
+2015-06-23 17:10:25 INFO  [pool-1-thread-27]  com.trendrr.nsq.AbstractNSQClient - Creating connection: 192.168.66.239 : 41503
+2015-06-23 17:10:25 INFO  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - 连接成功，[id: 0x667a9a1d, /172.16.5.94:53940 => /192.168.66.239:41503] CONNECTED: /192.168.66.239:41503
+2015-06-23 17:10:25 INFO  [pool-1-thread-27]  com.trendrr.nsq.AbstractNSQClient - Creating connection: 192.168.66.239 : 41503
+2015-06-23 17:10:25 INFO  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - 连接成功，[id: 0xf127f9de, /172.16.5.94:53941 => /192.168.66.239:41503] CONNECTED: /192.168.66.239:41503
+2015-06-23 17:10:35 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@7bd94acc 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@7bd94acc 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5bc68743 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5bc68743 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #2]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #2]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:10:35 INFO  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - 连接成功，[id: 0xb63503d4, /172.16.5.94:53943 => /192.168.66.239:41503] CONNECTED: /192.168.66.239:41503
+2015-06-23 17:10:35 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:10:35 INFO  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - 连接成功，[id: 0x727ac9f3, /172.16.5.94:53942 => /192.168.66.239:41503] CONNECTED: /192.168.66.239:41503
+2015-06-23 17:10:35 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@7bd94acc 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@7bd94acc 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5bc68743 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5bc68743 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #2]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #2]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@7bd94acc 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@7bd94acc 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #5]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #5]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #5]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@63f8e654 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #2]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #2]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5bc68743 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5bc68743 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@7bd94acc 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@7bd94acc 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #2]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #2]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #2]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #2]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@582955a7 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #1]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@7bd94acc 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #1]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@7bd94acc 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5bc68743 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #4]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5bc68743 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #4]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #4]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@3c5ccf99 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5bc68743 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5bc68743 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@5bc68743 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #3]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@5bc68743 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:35 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:10:35 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:10:35 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:10:36 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:36 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - Channel disconnected! NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:10:36 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:36 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:10:36 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:10:36 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - REMOVED: 192.168.66.239:41503
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #7]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #7]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #7]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@48d4e45e 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #6]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@35dc1914 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.netty.NSQHandler - NSQHandler exception caught
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.AbstractNSQClient - Disconnected!NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:10:50 WARN  [New I/O worker #8]  com.trendrr.nsq.Connections - Does not contain : 192.168.66.239:41503: NSQCONNECTION : com.trendrr.nsq.Connection@6ee17b9a 192.168.66.239 : 41503
+2015-06-23 17:11:05 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 线程返回正常,数量:100,预计执行时间：30s,实际执行时间:45444ms
+2015-06-23 17:11:05 INFO  [main]  com.trendrr.nsq.benchmark.Producer - tps:0.00,avg rt:�ms,max rt:-1ms,min rt:-1ms,success:0,fail:141.
+2015-06-23 17:11:05 INFO  [main]  com.trendrr.nsq.benchmark.Producer - 异常统计：{com.trendrr.nsq.exceptions.NoSpaceLeftException: no space left on device=8, com.trendrr.nsq.exceptions.TimeoutException: command:  (PUB full_disk_topic) timedout=133}
+2015-06-23 17:11:05 WARN  [New I/O worker #1]  com.trendrr.nsq.netty.NSQHandler - No connection set for : [id: 0x727ac9f3, /172.16.5.94:53942 :> /192.168.66.239:41503]
+2015-06-23 17:11:05 WARN  [New I/O worker #2]  com.trendrr.nsq.netty.NSQHandler - No connection set for : [id: 0xb63503d4, /172.16.5.94:53943 :> /192.168.66.239:41503]
